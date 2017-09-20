@@ -1,11 +1,21 @@
 html {
     font-size: 16px;
     font-family: 'Roboto', sans-serif;
-    background-color: #0084FF;
+    
 }
 
 body {
-    width: 1000px;
+    margin: 0;
+    background-color: #0084FF;
+    background-attachment: fixed;
+    background-image: url(../images/background.png);
+    /*opacity: 0.8;*/
+}
+
+.site_wrapper {
+    max-width: 1200px;
+    min-width: 768px;
+    width: 100%;
     margin: 0 auto;
     padding: 0 20px 20px 20px;
     background-color: #FFFFFF;
