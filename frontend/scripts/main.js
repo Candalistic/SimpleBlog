@@ -1,6 +1,6 @@
 //placeholder button for creating a new blog post
 var myButton = document.querySelector('button').onclick = function(){
-    alert('New post should be created');
+    alert('Placeholder: should make a new post');
 }
 
 //define an array of 3 images, that user will be able to go through

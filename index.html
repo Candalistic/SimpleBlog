@@ -1,33 +1,43 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
     <head>
         <meta charset="utf-8">
+        <meta name="author" content="Dmitry Ten">
+        <meta name="description" content="My learning project. I am teaching myself web development, by creating this blog.">
         <link href="frontend/styles/style.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-        <title>My personal blog</title>
+        <title>Dmitry Ten`s blog</title>
     </head>
     <body>
-        <div class="site_wrapper">
-        <h1>My Test Blog v1.0</h1>
-        <!-- <h2><i>This design is totally not from 90s :)</i></h2> -->
-        <p>Welcome to my "blog", I am working on it to learn web development.</p>
-        <button id="create-btn">Create a post</button>
-        <table>
-            <tr>
-                <th><button id="prev-btn">Previous</button></th>
-                <th><button id="next-btn">Next</button></th>
-            </tr>
-        </table>
-        <img id="img-view" src="frontend/images/img-me.JPG" alt="A picture of me">
-        <p style="text-align:center"><i>Fig 1.1: a picture of me</i></p>
-        <p>List of things to do</p>
-        <ul>
-            <li>Make a front end website</li>
-            <li>Use a web framework to handle processing new posts and loading existing ones</li>
-            <li>Use SQL database to store everything</li>
-            <li>Find some webhosting to host this</li>
-        </ul>
-        </div>
+        <header>
+            <h1>My Test Blog v1.0</h1>
+        </header>
+
+        <!-- No navigation bar for now -->
+
+        <main>
+            <p>Welcome to my "blog", I am working on it to learn web development.</p>
+            <button id="create-btn">Create a post</button>
+            <table> 
+                <tr>
+                    <th><button id="prev-btn">Previous</button></th>
+                    <th><button id="next-btn">Next</button></th>
+                </tr>
+            </table>
+            <img id="img-view" src="frontend/images/img-me.JPfG" alt="A picture of me">
+            <p style="text-align:center"><i>Fig 1.1: a picture of me</i></p>
+            <p>List of things to do</p>
+            <ul>
+                <li>Make a front end website</li>
+                <li>Use a web framework to handle processing new posts and loading existing ones</li>
+                <li>Use SQL database to store everything</li>
+                <li>Find some webhosting to host this</li>
+            </ul>
+        </main>
+
+        <footer>
+            <p style="text-align:center">@Made by me, for myself.</p>
+        </footer>
 
     <script src="frontend/scripts/main.js"></script>
     </body>
